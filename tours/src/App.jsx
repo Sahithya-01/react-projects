@@ -3,6 +3,8 @@ import Tours from './Tours'
 import Loading from './Loading'
 
 const url = 'https://course-api.com/react-tours-project'
+//got Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://course-api.com/react-tours-project. (Reason: CORS request did not succeed). Status code: (null).
+//added CORS unblock extension to browser
 
 const App = () => {
   const [tours, setTours] = useState([])
